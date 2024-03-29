@@ -55,7 +55,7 @@ router.post('/', async (req, res) => {
     if(req.body.tagIds.length){
       const productTagIdArr = req.body.tagIds.map((tag_id) => {
         return{
-          product_id: product_id,
+          product_id: productData.id,
           tag_id,
         };
       });
@@ -63,6 +63,7 @@ router.post('/', async (req, res) => {
     }
     res.status(200).json(productData)
  }catch(err){
+  console.log(err)
   res.status(500).json(err);
  }
 });
