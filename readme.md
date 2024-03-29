@@ -11,8 +11,8 @@
 - [Questions](#questions)
 
 ## Video
- chrome-extension://mmeijimgabbpbgpdklnllpncmdofkcpn/app.html#/files/36d8bd59-a822-4f2a-y1d0-bc59e06523b7
 
+https://app.screencastify.com/v2/manage/videos/a2vEbv4dLbUrxpDHisWZ
 
 ## Installation
 Sequelize, Express.js, dotenv
